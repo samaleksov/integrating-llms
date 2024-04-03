@@ -1,5 +1,7 @@
 # Integrating LLMs slides & demos
 
+https://github.com/samaleksov/integrating-llms/assets/6011630/a0663b2a-1d72-4919-ae5b-04f7e5824805
+
 This is support material for the talk, part of a series I make on machine learning. The goal is to make the subject more understandable and accessible for everybody.
 
 The presentation is mostly me talking and the slides are just supporting titles or animations, not really informative standalone.
