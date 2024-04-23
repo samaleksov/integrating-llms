@@ -1,7 +1,7 @@
 ---
 ---
 
-<video autoplay muted loop src="animations/videos/LLMLogo2.mp4"></video>
+<video autoplay muted loop src="animations/videos/LLMLogo3.mp4"></video>
 
 ---
 
@@ -17,11 +17,12 @@ Agenda
 - Fine-tuning
 - Examples
 
-# 
-Agenda
+# Agenda
 
 - Embeddings - Word2Vec
-- GPTs or LLMs - llama2.c - llama.cpp - Ollama 
+- GPTs or LLMs - llama2.c - llama.cpp - Ollama
+  - llm.c - llamafile
+  - Llama 3
 - Prompt engineering or RAG - LlamaIndex
 - Fine-tuning or LoRa/QLoRa - MLX - qlora.py
 
@@ -131,6 +132,7 @@ Compute graphs / model formats
 - PyTorch (.pt | .pth)
 - Safetensors (.safetensors)
 - ONNX (.onnx)
+- llama.cpp (llama.cpp)
 
 # 
 Encodings or Embeddings or Word vectors
@@ -139,7 +141,6 @@ Encodings or Embeddings or Word vectors
 <img style="display:inline;" height="200px" src="images/encoding.drawio.png" />
 
 # 
-
 a tiny gpt
 
 # 
@@ -154,11 +155,33 @@ LoRa & QLoRa
 # 
 Ollama
 
+#
+αcτµαlly pδrταblε εxεcµταblε
+
+![](images/apeqr.png)
+
+#
+llamafile
+
+![](images/llamafile.png)
+
+#
+Hardware acceleration
+
+#
+Azure Machine Learning
+
+![](images/azure.png)
+
 # 
 Data
 
 # 
 next
+
+#
+https://github.com/samaleksov/integrating-llms
+![qr code](images/qr.png)
 
 # 
 q & a

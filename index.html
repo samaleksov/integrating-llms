@@ -40,7 +40,7 @@
 
 <section class="slide level1">
 
-<video autoplay muted loop src="animations/videos/LLMLogo2.mp4">
+<video autoplay muted loop src="animations/videos/LLMLogo3.mp4">
 </video>
 </section>
 <section class="slide level1">
@@ -59,25 +59,28 @@
 <li>Examples</li>
 </ul>
 </section>
-<section id="section-1" class="slide level1">
-<h1></h1>
-<p>Agenda</p>
+<section id="agenda" class="slide level1">
+<h1>Agenda</h1>
 <ul>
 <li>Embeddings - Word2Vec</li>
-<li>GPTs or LLMs - llama2.c - llama.cpp - Ollama</li>
+<li>GPTs or LLMs - llama2.c - llama.cpp - Ollama
+<ul>
+<li>llm.c - llamafile</li>
+<li>Llama 3</li>
+</ul></li>
 <li>Prompt engineering or RAG - LlamaIndex</li>
 <li>Fine-tuning or LoRa/QLoRa - MLX - qlora.py</li>
 </ul>
 </section>
-<section id="section-2" class="slide level1">
+<section id="section-1" class="slide level1">
 <h1></h1>
 <p>Learning from data</p>
 </section>
-<section id="section-3" class="slide level1">
+<section id="section-2" class="slide level1">
 <h1></h1>
 <p>Not learning from data</p>
 </section>
-<section id="section-4" class="slide level1">
+<section id="section-3" class="slide level1">
 <h1></h1>
 <pre data-id="title"><code data-line-numbers>if (value <= threshold1) {
     ...
@@ -88,7 +91,7 @@
 } ...
 ...                     </code></pre>
 </section>
-<section id="section-5" class="slide level1">
+<section id="section-4" class="slide level1">
 <h1></h1>
 <pre data-id="title"><code data-line-numbers>if (value <= threshold1) {
     ...
@@ -103,7 +106,7 @@
 } ...
 ...                     </code></pre>
 </section>
-<section id="section-6" class="slide level1">
+<section id="section-5" class="slide level1">
 <h1></h1>
 <pre data-id="title"><code data-line-numbers>if (value <= threshold1) {
     ...
@@ -129,52 +132,52 @@
 } ...
 ...                     </code></pre>
 </section>
-<section id="section-7" class="slide level1">
+<section id="section-6" class="slide level1">
 <h1></h1>
 <p>Learning from data
 <video autoplay muted loop src="animations/videos/DecisionTreeSplitScene.mp4"></video></p>
 </section>
-<section id="section-8" class="slide level1">
+<section id="section-7" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/RandomForestScene.mp4">
 </video>
 </section>
-<section id="section-9" class="slide level1">
+<section id="section-8" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/PerceptronScene.mp4">
 </video>
 </section>
-<section id="section-10" class="slide level1">
+<section id="section-9" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/SVMScene.mp4">
 </video>
 </section>
-<section id="section-11" class="slide level1">
+<section id="section-10" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/NeuralNetworkScene.mp4">
 </video>
 </section>
-<section id="section-12" class="slide level1">
+<section id="section-11" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="images/rec1.mp4">
 </video>
 </section>
-<section id="section-13" class="slide level1">
+<section id="section-12" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="images/rec3.mp4">
 </video>
 </section>
-<section id="section-14" class="slide level1">
+<section id="section-13" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/GANScene.mp4">
 </video>
 </section>
-<section id="section-15" class="slide level1">
+<section id="section-14" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/VAEScene.mp4">
 </video>
 </section>
-<section id="section-16" class="slide level1">
+<section id="section-15" class="slide level1">
 <h1></h1>
 <div style="display: inline-block;">
 <p><img style="display:inline; float: left;" height="200px" src="images/img_noise_9.jpg" />
@@ -196,7 +199,7 @@ style="float: right; line-height: 200px; margin: 20px 20px; min-height: 200px; d
 <img style="display:inline; float: right;" height="100px" src="images/img_noise_7.jpg" /></p>
 </div>
 </section>
-<section id="section-17" class="slide level1">
+<section id="section-16" class="slide level1">
 <h1></h1>
 <p>Compute graphs / model formats</p>
 <ul>
@@ -205,49 +208,74 @@ style="float: right; line-height: 200px; margin: 20px 20px; min-height: 200px; d
 <li>PyTorch (.pt | .pth)</li>
 <li>Safetensors (.safetensors)</li>
 <li>ONNX (.onnx)</li>
+<li>llama.cpp (llama.cpp)</li>
 </ul>
 </section>
-<section id="section-18" class="slide level1">
+<section id="section-17" class="slide level1">
 <h1></h1>
 <p>Encodings or Embeddings or Word vectors</p>
 </section>
-<section id="section-19" class="slide level1">
+<section id="section-18" class="slide level1">
 <h1></h1>
 <p><img style="display:inline;" height="200px" src="images/encoding.drawio.png" /></p>
 </section>
-<section id="section-20" class="slide level1">
+<section id="section-19" class="slide level1">
 <h1></h1>
 <p>a tiny gpt</p>
 </section>
-<section id="section-21" class="slide level1">
+<section id="section-20" class="slide level1">
 <h1></h1>
 <p>A bigger GPT</p>
 </section>
-<section id="section-22" class="slide level1">
+<section id="section-21" class="slide level1">
 <h1></h1>
 <p>RAG or glorified prompt engineering :)</p>
 </section>
-<section id="section-23" class="slide level1">
+<section id="section-22" class="slide level1">
 <h1></h1>
 <p>LoRa &amp; QLoRa</p>
 </section>
-<section id="section-24" class="slide level1">
+<section id="section-23" class="slide level1">
 <h1></h1>
 <p>Ollama</p>
 </section>
+<section id="section-24" class="slide level1">
+<h1></h1>
+<p>αcτµαlly pδrταblε εxεcµταblε</p>
+<p><img data-src="images/apeqr.png" /></p>
+</section>
 <section id="section-25" class="slide level1">
 <h1></h1>
-<p>Data</p>
+<p>llamafile</p>
+<p><img data-src="images/llamafile.png" /></p>
 </section>
 <section id="section-26" class="slide level1">
 <h1></h1>
-<p>next</p>
+<p>Hardware acceleration</p>
 </section>
 <section id="section-27" class="slide level1">
 <h1></h1>
-<p>q &amp; a</p>
+<p>Azure Machine Learning</p>
+<p><img data-src="images/azure.png" /></p>
 </section>
 <section id="section-28" class="slide level1">
+<h1></h1>
+<p>Data</p>
+</section>
+<section id="section-29" class="slide level1">
+<h1></h1>
+<p>next</p>
+</section>
+<section id="section-30" class="slide level1">
+<h1></h1>
+<p>https://github.com/samaleksov/integrating-llms <img
+data-src="images/qr.png" alt="qr code" /></p>
+</section>
+<section id="section-31" class="slide level1">
+<h1></h1>
+<p>q &amp; a</p>
+</section>
+<section id="section-32" class="slide level1">
 <h1></h1>
 <video autoplay muted loop src="animations/videos/ThankYou.mp4">
 </video>
